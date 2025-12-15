@@ -1,0 +1,121 @@
+h2{
+    color: rgb(255, 0, 0);
+}
+h1{
+    font-size: xx-large;
+    color: rgb(255,0,0);
+    font-family: Verdana;
+    font-style: italic;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+ol{
+    font-size: large;
+    color: rgb(0,200,0);
+}
+p{
+    font-family:Verdana;
+    size: 240px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+h3{
+  color:aqua;
+}
+body.invert {
+  background-color: black;
+  color: white;
+}
+body.invert h1,
+body.invert a,
+body.invert .header,
+body.invert p {
+  color: white;
+}
+.image-text{
+  text-align:right;
+}
+img{
+  width: 150px;
+}
+.Img{
+  width: 300px;
+}
+#switch{
+  transition: trnasform 0.2s ease;
+  cursor: pointer;
+}
+#switch:hover{
+  transform: scale(1.12);
+}
+.headerundertale {
+  display: flex;
+  align-items: center;
+  background-image: url("img/band\ Undertale.png");
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.headermario {
+  display: flex;
+  align-items: center;
+  background-image: url("img/band\ mario.jpg");
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.header img{
+  height: 80px;
+  cursor: pointer;
+}
+.headerCOE33 {
+  display: flex;
+  align-items: center;
+  background-image: url("img/band\ clair\ obscur.jpg");
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.headerRE2 {
+display: flex;
+  align-items: center;
+  background-image: url("img/band\ RE2.jpg");
+  justify-content: space-between;
+  padding: 10px 20px;
+}
